@@ -144,3 +144,27 @@ This provides Dice Similarity Coefficient (DSC), Aggregated Jaccard Index (AJI),
 </div>
 
 ## 4. Results
+### 4.1 Quantitative Results
+**CompSegNet on MoNuSeg 2018 dataset: Comparison with recent studies**
+<p align="center">
+   <img src="misc/compsegnet_quant_results_on_monuseg_2018.png" alt="Compsegnet Quantitative results on MoNuSeg 2018 Dataset" style="transform:rotate(90deg);">
+</p>
+
+**CompSegNet on MoNuSeg 2018 dataset: Comparison with MoNuSeg 2018 competition results**
+<p align="center">
+   <img src="misc/monuseg_competition_results.png" alt="Comparison with MoNuSeg 2018 Competition Results" style="transform:rotate(90deg);">
+</p>
+
+**CompSegNet on CoNSeP dataset: Comparison with recent studies**
+<p align="center">
+   <img src="misc/compsegnet_quant_results_on_consep.png" alt="Comparison with CoNSeP Competition Results" style="transform:rotate(90deg);">
+</p>
+
+**CompSegNet on CPM-17 dataset: Comparison with recent studies**
+<p align="center">
+   <img src="misc/compsegnet_quant_results_on_cpm_17.png" alt="Comparison with CPM-17 Competition Results" style="transform:rotate(90deg);">
+</p>
+
+### 4.2 Qualitative Results
+
+
