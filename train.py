@@ -12,15 +12,15 @@ from tensorflow.keras.optimizers import *
 if __name__ == "__main__":
    parser = argparse.ArgumentParser()
    
-   parser.add_argument('--train-folder', '-tf',  type=str, required=True)
-   parser.add_argument('--validation-folder', '-vf',  type=str, required=True)
-   parser.add_argument('--checkpoints-folder', '-cf',  type=str, default="checkpoints/ckpts")
-   parser.add_argument('--optimizer', '-op', type=str, default='adam')
-   parser.add_argument('--learning-rate', '-lr', type=float, default=1e-3)
-   parser.add_argument('--train-batch-size', '-trbs', type=int, default=4)
-   parser.add_argument('--test-batch-size', '-tebs', type=int, default=1)
-   parser.add_argument('--image-size', '-imsize', type=int, default=256)
-   parser.add_argument('--epochs', '-eps', type=int, default=100)
+   parser.add_argument('--train-folder', '-tf', help="Path to the train data", type=str, required=True)
+   parser.add_argument('--validation-folder', '-vf',  help="Path to the validation data", type=str, required=True)
+   parser.add_argument('--checkpoints-folder', '-cf',  help="Path for saving the checkpoints", type=str, default="checkpoints/ckpts")
+   parser.add_argument('--optimizer', '-op', help="Optimizer", type=str, default='adam')
+   parser.add_argument('--learning-rate', '-lr', help="Learning rate for the optimizer", type=float, default=1e-3)
+   parser.add_argument('--train-batch-size', '-trbs', help="Training batch size", type=int, default=4)
+   parser.add_argument('--test-batch-size', '-tebs', help="Test batch size", type=int, default=1)
+   parser.add_argument('--image-size', '-imsize', help="Model input image size ((With and height))", type=int, default=256)
+   parser.add_argument('--epochs', '-eps', help="Initial epoch number", type=int, default=100)
    
    try:
        args = parser.parse_args()   

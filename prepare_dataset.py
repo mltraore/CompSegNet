@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import shutil
 import argparse
@@ -153,11 +154,11 @@ def create_validation(train_image_path, train_label_path, validation_image_path,
 if __name__ == "__main__": 
    parser = argparse.ArgumentParser(description="Dataset configuration")
    
-   parser.add_argument('--dataset-path', '-dpath', type=str, default='datasets/monuseg_2018')
-   parser.add_argument('--image-size', '-imsize', type=int, help="Image size (width/height)", default=1000)
-   parser.add_argument('--validation-size', '-vsize', type=float, help="Validation size (%) (from train set)", default=0.1)          
+   parser.add_argument('--dataset-path', '-dpath', type=str, help="Path to datasets", default='datasets/monuseg_2018')
+   parser.add_argument('--image-size', '-imsize', type=int, help=r"Image size ((width/height))", default=1000)
+   parser.add_argument('--validation-size', '-vsize', type=float, help=r"Validation size ((%%)) ((from train set))", default=0.1)          
    parser.add_argument('--reference-image', '-r', type=str, help="Path to the target image for color normalization", default='datasets/monuseg_2018/train/images/1.tif')
-   parser.add_argument('--prepared-data-path', '-ppath', type=str, default='datasets/prepared_datasets/monuseg_2018')
+   parser.add_argument('--prepared-data-path', '-ppath', type=str, help="Path to save the prepared datasets", default='datasets/prepared_datasets/monuseg_2018')
    
    try:
        args = parser.parse_args()   
