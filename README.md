@@ -98,7 +98,7 @@ The following datasets were used in experiments:
 
 Processed versions of these datasets, along with the original versions, predicted masks, and a checkpoint sample for the MoNuSeg 2018 dataset, can be downloaded [here](https://drive.google.com/drive/folders/1ikOYp_37YUczyncHvmSpVoL4PQuz7zkm?usp=sharing). For automatic download, run:  
 ```bash
-   $ chmod +x download_compsegnet_resources.sh
+   $ chmod +x download_resources.sh
    $ ./download_resources.sh
 ```
 in the project directory.  
@@ -145,26 +145,28 @@ This provides Dice Similarity Coefficient (DSC), Aggregated Jaccard Index (AJI),
 
 ## 4. Results
 ### 4.1 Quantitative Results
-**CompSegNet on MoNuSeg 2018 dataset: Comparison with recent studies**
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on MoNuSeg 2018 dataset**
 <p align="center">
    <img src="misc/compsegnet_quant_results_on_monuseg_2018.png" alt="Compsegnet Quantitative results on MoNuSeg 2018 Dataset" style="transform:rotate(90deg);">
 </p>
 
-**CompSegNet on MoNuSeg 2018 dataset: Comparison with MoNuSeg 2018 competition results**
-<p align="center">
-   <img src="misc/monuseg_competition_results.png" alt="Comparison with MoNuSeg 2018 Competition Results" style="transform:rotate(90deg);">
-</p>
-
-**CompSegNet on CoNSeP dataset: Comparison with recent studies**
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CoNSeP dataset**
 <p align="center">
    <img src="misc/compsegnet_quant_results_on_consep.png" alt="Comparison with CoNSeP Competition Results" style="transform:rotate(90deg);">
 </p>
 
-**CompSegNet on CPM-17 dataset: Comparison with recent studies**
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CPM-17 dataset**
 <p align="center">
    <img src="misc/compsegnet_quant_results_on_cpm_17.png" alt="Comparison with CPM-17 Competition Results" style="transform:rotate(90deg);">
 </p>
 
 ### 4.2 Qualitative Results
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on MoNuSeg 2018 dataset**
 
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CoNSeP dataset**
 
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CPM-17 dataset**
+
+## Citation
+
+## Acknowledgement
