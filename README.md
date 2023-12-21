@@ -98,7 +98,7 @@ The following datasets were used in experiments:
 
 Processed versions of these datasets, along with the original versions, predicted masks, and a checkpoint sample for the MoNuSeg 2018 dataset, can be downloaded [here](https://drive.google.com/drive/folders/1ikOYp_37YUczyncHvmSpVoL4PQuz7zkm?usp=sharing). For automatic download, run:  
 ```bash
-   $ chmod +x download_compsegnet_resources.sh
+   $ chmod +x download_resources.sh
    $ ./download_resources.sh
 ```
 in the project directory.  
