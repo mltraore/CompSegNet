@@ -1,0 +1,14 @@
+numpy
+scipy
+spams
+gdown
+natsort
+patchify
+prettytable
+imagecodecs
+albumentations
+scikit-image
+opencv-python
+scikit-learn
+tensorflow
+keras-nlp
