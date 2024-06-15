@@ -167,9 +167,16 @@ This provides Dice Similarity Coefficient (DSC), Aggregated Jaccard Index (AJI),
 </p>
 
 ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CoNSeP dataset**
+<p align="center">
+   <img src="misc/compsegnet_qualitative_results_on_consep.png" alt="Compsegnet Quantitative results on MoNuSeg 2018 Dataset" style="transform:rotate(90deg);">
+</p>
 
 ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+)![#A0A0A0](https://via.placeholder.com/15/A0A0A0/000000?text=+)![#808080](https://via.placeholder.com/15/808080/000000?text=+)![#505050](https://via.placeholder.com/15/505050/000000?text=+)![#000000](https://via.placeholder.com/15/000000/000000?text=+) &nbsp;&nbsp;**CompSegNet on CPM-17 dataset**
+<p align="center">
+   <img src="misc/compsegnet_qual_results_on_cpm_17.png" alt="Compsegnet Quantitative results on MoNuSeg 2018 Dataset" style="transform:rotate(90deg);">
+</p>
 
 ## Citation
 
 ## Acknowledgement
+This work is supported by TÜBİTAK (Scientific and Technological Research Council of Türkiye) (Project number: 121E379).
