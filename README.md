@@ -177,6 +177,16 @@ This provides Dice Similarity Coefficient (DSC), Aggregated Jaccard Index (AJI),
 </p>
 
 ## Citation
-
+<pre>
+@article{traore2024compsegnet,
+  title={CompSegNet: An enhanced U-shaped architecture for nuclei segmentation in H\&E histopathology images},
+  author={Traoré, Mohamed and Hancer, Emrah and Samet, Refik and Yildirim, Zeynep and Nemati, Nooshin},
+  journal={Biomedical Signal Processing and Control},
+  volume={97},
+  pages={106699},
+  year={2024},
+  publisher={Elsevier}
+}
+</pre>
 ## Acknowledgement
 This work is supported by TÜBİTAK (Scientific and Technological Research Council of Türkiye) (Project number: 121E379).
